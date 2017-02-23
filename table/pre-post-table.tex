@@ -1,0 +1,17 @@
+\begin{table}[t]
+\scriptsize
+\centering
+\caption{Results of applying AIG-based algebraic rewriting to pre- and post-synthesized CSA multipliers compared to \textit{functional extraction} presented in \cite{ciesielski2015verification}. \textit{*t(s)} is the runtime in seconds. \textit{*mem} is the memory usage in mb.}
+\vspace{-3mm}
+\label{tbl:pre-post-tbl}
+\begin{tabular}{|r|r|r|r|r|c|r|c|r|}
+\hline
+\multicolumn{1}{|c|}{\multirow{3}{*}{\#bits}} & \multicolumn{4}{c|}{\textit{Pre-synthesized}} & \multicolumn{4}{c|}{\textit{Post-synthesized}} \\ \cline{2-9} 
+\multicolumn{1}{|c|}{} & \multicolumn{2}{c|}{{[}1{]}} & \multicolumn{2}{c|}{This approach} & \multicolumn{2}{c|}{{[}1{]}} & \multicolumn{2}{c|}{This approach} \\ \cline{2-9} 
+\multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{t(s)} & \multicolumn{1}{c|}{mem} & \multicolumn{1}{c|}{t(s)} & \multicolumn{1}{c|}{mem} & {t(s)} & \multicolumn{1}{c|}{mem} & {t(s)} & \multicolumn{1}{c|}{mem} \\ \hline
+64 & 1.89 & 74 & 0.04 & 34 & \multicolumn{1}{r|}{5.50} & 76 & \multicolumn{1}{r|}{0.04} & 34 \\ \hline
+128 & 8.12 & 288 & 0.15 & 117 & \multicolumn{1}{r|}{39.64} & 299 & \multicolumn{1}{r|}{0.16} & 120 \\ \hline
+256 & 32.65 & 1157 & 0.82 & 441 & \multicolumn{1}{r|}{285.22} & 1250 & \multicolumn{1}{r|}{0.82} & 439 \\ \hline
+512$^2$ & 130.22 & 4427 & 3.76 & 1695 & - & \multicolumn{1}{c|}{-} & - & \multicolumn{1}{c|}{-} \\ \hline
+\end{tabular}
+\end{table}

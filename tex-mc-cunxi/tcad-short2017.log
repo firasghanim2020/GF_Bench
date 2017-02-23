@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=latex 2016.11.16)  23 FEB 2017 17:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=latex 2016.11.16)  21 FEB 2017 13:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -577,20 +577,15 @@ File: ../figs/aig-to-gatenetlist.eps Graphic file (type eps)
  <../figs/aig-to-gatenetlist.eps> [3]
 File: ../figs/truncate-mult3.eps Graphic file (type eps)
 
-<../figs/truncate-mult3.eps>) (./results.tex [4] (../table/pre-post-table.tex)
-(../table/complex-circuits.tex
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1.
-
-)) (./tcad-short2017.bbl) [5] (./tcad-short2017.aux) ) 
+<../figs/truncate-mult3.eps>) (./results.tex [4] (../table/pre-syn.tex)
+(../table/post-syn.tex)) (./tcad-short2017.bbl) [5] (./tcad-short2017.aux) ) 
 Here is how much of TeX's memory you used:
- 12441 strings out of 493014
- 218719 string characters out of 6133353
- 361216 words of memory out of 5000000
- 15791 multiletter control sequences out of 15000+600000
- 32346 words of font info for 79 fonts, out of 8000000 for 9000
+ 12451 strings out of 493014
+ 218749 string characters out of 6133353
+ 359196 words of memory out of 5000000
+ 15797 multiletter control sequences out of 15000+600000
+ 33891 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,16n,53p,1673b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,10n,53p,1677b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcad-short2017.dvi (5 pages, 46960 bytes).
+Output written on tcad-short2017.dvi (5 pages, 45884 bytes).
