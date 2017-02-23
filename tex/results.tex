@@ -1,0 +1,11 @@
+\section{Results}
+
+The technique described in this paper was implemented in C, and embedded in the ABC system\cite{abc-link}. It applies algebraic rewriting on AIG network and generates the polynomial signature. The experimental results include rewriting on gate-level Carry-save-adder (CSA) multipliers up to 512-bit, and compared to \textit{function extraction} \cite{ciesielski2015verification}.
+They show that our technique is more efficient than the state-of-the-art technique in extracting the polynomial expressions of CSA multipliers. The experiments were conducted on a PC with Intel(R) Xeon CPU E5-2420 v2 2.20 GHz x12 with 32 GB memory.
+
+The results of applying AIG-based algebraic rewriting on pre-synthesized and post-synthesized CSA-multipliers are shown in Table \ref{tbl:pre} and Table \ref{tbl:post}. The gate-level multipliers are taken from \cite{ciesielski2015verification}. Runtime and memory usage of \textit{function extraction} \cite{ciesielski2015verification} are shown in columns 2 and 3, and the results of the described approach are shown in columns 4 and 5. The bit-width varies from 8 to 256 bits\footnote{512-bit post-synthesized multipliers was not reported in \cite{ciesielski2015verification}.}. First, we can see that the runtime of the proposing approach is lower than a second on both the pre- and post-synthesized CSA-multipliers from 8-bit to 256-bit. At the same time, the memory usage has been reduced on average 60\% compared to \textit{function extraction} \cite{ciesielski2015verification}. Finally, the complexity of extracting the polynomial expression using function extraction is increased while the multipliers have been synthesized. For example, extracting post-synthesized 256-bit multiplier using function extraction requires 9x more runtime and more memory. However, using the proposed approach, the runtime of extracting pre- or post-synthesized multipliers are almost the same.
+
+\input{../table/pre-syn.tex}
+\input{../table/post-syn.tex}
+
+%\input{../table/booth-mult.tex}

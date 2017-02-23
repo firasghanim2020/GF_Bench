@@ -1,0 +1,15 @@
+\begin{table}[!htb]
+\centering
+\caption{Results of applying AIG-based algebraic rewriting to post-synthesized CSA-multipliers compared to \textit{functional extraction} \cite{ciesielski2015verification}.}
+\label{tbl:post}
+\begin{tabular}{|r|r|r|r|r|}
+\hline
+\multirow{2}{*}{\# bits} & \multicolumn{2}{c|}{{[}1{]}} & \multicolumn{2}{c|}{This approach} \\ \cline{2-5} 
+ & runtime(s) & mem(MB) & runtime(s) & mem(MB) \\ \hline
+8 & 0.04 & 2.9 & 0.01 & 9.7 \\ \hline
+16 & 0.14 & 6.1 & 0.01 & 10.4 \\ \hline
+64 & 5.50 & 76.3 & 0.04 & 34.3 \\ \hline
+128 & 39.64 & 299.2 & 0.16 & 120.0 \\ \hline
+256 & 285.22 & 1250.6 & 0.82 & 438.9 \\ \hline
+\end{tabular}
+\end{table}

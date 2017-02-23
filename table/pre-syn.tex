@@ -1,0 +1,19 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[t]
+\centering
+\caption{Results of applying AIG-based algebraic rewriting on pre-synthesized CSA-multipliers compared to \textit{function extraction} \cite{ciesielski2015verification}.}
+\vspace{-1mm}
+\label{tbl:pre}
+\begin{tabular}{|r|r|r|r|r|}
+\hline
+\multirow{2}{*}{\# bits} & \multicolumn{2}{c|}{{[}1{]}} & \multicolumn{2}{c|}{This approach} \\ \cline{2-5} 
+ & runtime(s) & mem(MB) & runtime(s) & mem(MB) \\ \hline
+8 & 0.02 & 4.9 & 0.01 & 9.8 \\ \hline
+16 & 0.10 & 8.2 & 0.01 & 10.4 \\ \hline
+64 & 1.89 & 73.9 & 0.04 & 34.2 \\ \hline
+128 & 8.12 & 288.4 & 0.15 & 117.2 \\ \hline
+256 & 32.65 & 1157.3 & 0.82 & 440.5 \\ \hline
+512 & 130.22 & 4427.5 & 3.76 & 1695.1 \\ \hline
+\end{tabular}
+\end{table}

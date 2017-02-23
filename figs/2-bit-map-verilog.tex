@@ -1,0 +1,11 @@
+\begin{figure}[t]
+\scriptsize
+\centering
+\label{fig:2-bit-verilog}
+\begin{tabular}{|l|}
+\hline
+\textit{\begin{tabular}[c]{@{}l@{}}and2 g0(.a(b0), .b(a0), .O(m0));\\ nand4 g1(.a(b1), .b(b0), .c(a1), .d(a0), .O(n10));\\ inv1 g2(.a(n10), .O(n11));\\ aoi22 g3(.a(b1), .b(a0), .c(b0), .d(a1), .O(n12));\\ nor2 g4(.a(n12), .b(n11), .O(m1));\\ and2 g5(.a(b1), .b(a1), .O(n14));\\ xnor2 g6(.a(n14), .b(n10), .O(m2));\\ nand4 g7(.a(b1), .b(b0), .c(a1), .d(a0), .O(n16));\\ inv1 g8(.a(n16), .O(m3));\end{tabular}} \\ \hline
+\end{tabular}
+\caption{Gate-level netlist of technology mapped 2-bit multiplier.}
+\label{fig:2-bit-verilog}
+\end{figure}
