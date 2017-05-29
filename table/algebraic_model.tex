@@ -1,0 +1,15 @@
+
+\begin{table}[!htb]
+\color{red}
+\centering
+\caption{Boolean model and algebraic model of INV, AND, XOR, and Majority operations.}
+\label{tbl:model}
+\begin{tabular}{|c|l|l|}
+\hline
+Operation & Boolean Model & Algebraic Model \\ \hline
+\textit{INV(a)} & $\bar{a}$ & 1-a \\ \hline
+\textit{AND(a,b)} & a $\wedge$ b & ab \\ \hline
+\textit{XOR(a,b,c)} & a $\oplus$ b $\oplus$ c & ab+ac+bc-2abc \\ \hline
+\textit{Majority(a,b,c)} & (a $\vee$ b) $\wedge$ (a $\vee$ c) $\wedge$ (b $\vee$ c) & a+b+c-2ab-2ac-2bc+4abc \\ \hline
+\end{tabular}
+\end{table}

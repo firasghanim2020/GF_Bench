@@ -38,6 +38,12 @@ E.~Pavlenko, M.~Wedler, D.~Stoffel, W.~Kunz, A.~Dreyer, F.~Seelisch, and
   combining Boolean reasoning with computer algebra,'' in \emph{DATE}, 2011,
   pp. 155--160.
 
+\bibitem{farahmandi2015groebner}
+F.~Farahmandi and B.~Alizadeh, ``Groebner basis based formal verification of
+  large arithmetic circuits using gaussian elimination and cone-based
+  polynomial extraction,'' \emph{Microprocessors and Microsystems}, vol.~39,
+  no.~2, pp. 83--96, 2015.
+
 \bibitem{sayedformal:date-2016}
 A.~Sayed-Ahmed, D.~Gro{\ss}e, U.~K{\"u}hne, M.~Soeken, and R.~Drechsler,
   ``Formal Verification of Integer Multipliers by Combining Grobner Basis with
@@ -65,8 +71,10 @@ R.~E. Bryant, ``Graph-based algorithms for boolean function manipulation,''
   \emph{IEEE Trans. on Computers}, vol. 100, no.~8, pp. 677--691, 1986.
 
 \bibitem{bmd95}
-R.~E. Bryant and Y.-A. Chen, ``{V}erification of {A}rithmetic {F}unctions with
-  {B}inary {M}oment {D}iagrams,'' in \emph{DAC'95}.
+R.~E. Bryant and Y.~Chen, ``Verification of Arithmetic Circuits with Binary
+  Moment Diagrams,'' in \emph{Proceedings of the 32st Conference on Design
+  Automation, San Francisco, California, USA, Moscone Center, June 12-16,
+  1995.}, 1995, pp. 535--541.
 
 \bibitem{bryant:tr97}
 Y.-A. Chen and R.~Bryant, ``*{PHDD}: {A}n {E}fficient {G}raph {R}epresentation
@@ -125,8 +133,8 @@ C.~Yu, M.~J. Ciesielski, M.~Choudhury, and A.~Sullivan, ``DAG-aware logic
 
 \bibitem{HuangWNM13}
 Z.~Huang, L.~Wang, Y.~Nasikovskiy, and A.~Mishchenko, ``Fast Boolean matching
-  based on {NPN} classification,'' in \emph{2013 International Conference on
-  Field-Programmable Technology, {FPT} 2013, Kyoto, Japan, December, 2013}.
+  based on {NPN} classification,'' in \emph{International Conference on
+  Field-Programmable Technology, {FPT}, Kyoto, Japan}, 2013.
 
 \bibitem{PanL98}
 P.~Pan and C.~Lin, ``A New Retiming-Based Technology Mapping Algorithm for
