@@ -1,6 +1,0 @@
-5c5
-< \caption{Results of applying AIG-based algebraic rewriting to pre-synthesized CSA multipliers compared to \textit{functional extraction} presented in \cite{ciesielski2015verification}.}
----
-> \caption{Results of applying AIG-based algebraic rewriting on pre-synthesized CSA-multipliers compared to \textit{function extraction} \cite{ciesielski2015verification}.}
-20d19
-< 
